@@ -4,11 +4,10 @@
   align-items: center;
   margin: 40px 0; /* creates space between sections */
 }
-
 .center-image img {
-  max-width: 150px;
+  width: 200px;   /* adjust this number smaller if needed */
   height: auto;
-  border-radius: 10px; /* optional: makes it look nicer */
+  border-radius: 10px;
 }
 
 /* extra spacing for sections */
