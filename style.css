@@ -7,6 +7,10 @@
 .center-image img {
   width: 50px;   /* adjust this number smaller if needed */
 }
+.jada-img {
+  width: 150px !important;
+  height: auto;
+}
   height: auto;
   border-radius: 10px;
 }
