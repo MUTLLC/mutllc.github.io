@@ -1,0 +1,21 @@
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0; /* creates space between sections */
+}
+
+.center-image img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px; /* optional: makes it look nicer */
+}
+
+/* extra spacing for sections */
+.dedication {
+  margin-bottom: 40px;
+}
+
+.contact {
+  margin-top: 40px;
+}
