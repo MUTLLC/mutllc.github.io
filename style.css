@@ -23,3 +23,9 @@
 .contact {
   margin-top: 40px;
 }
+.jada-img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 20px auto; /* centers it */
+}
