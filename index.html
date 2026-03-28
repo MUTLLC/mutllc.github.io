@@ -5,74 +5,49 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Motivation United Transport LLC</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
-
 <style>
 body {
 margin: 0;
-font-family: 'Montserrat', sans-serif;
-background: #0d0d0d;
+font-family: Arial, sans-serif;
+background-color: #0d1b2a;
 color: white;
+text-align: center;
 }
+
 header {
-background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-url('https://images.unsplash.com/photo-1601582589907-f92af5ed9db8');
-background-size: cover;
-padding: 100px 20px;
-text-align: center;
-}
-header h1 {
-font-size: 42px;
-}
-header p {
-font-size: 18px;
-}
-nav {
-background: #111;
-padding: 15px;
-text-align: center;
-}
-nav a {
-color: white;
-margin: 0 15px;
-text-decoration: none;
-font-weight: bold;
-}
-section {
-padding: 50px 20px;
-max-width: 1000px;
-margin: auto;
-}
-.card {
-background: #1a1a1a;
-padding: 25px;
-border-radius: 10px;
-margin-top: 20px;
-}
-h2 {
-border-left: 5px solid #007BFF;
-padding-left: 10px;
-}
-.btn {
-background: #007BFF;
-padding: 12px 25px;
-border-radius: 5px;
-text-decoration: none;
-color: white;
-display: inline-block;
-margin-top: 15px;
-}
-form input, form select, form textarea {
-width: 100%;
-padding: 12px;
-margin: 10px 0;
-border: none;
-border-radius: 5px;
-}
-footer {
-text-align: center;
 padding: 20px;
-background: #111;
+background-color: #000;
+}
+
+img.logo {
+width: 180px;
+}
+
+.hero {
+padding: 60px 20px;
+}
+
+.hero h1 {
+font-size: 36px;
+margin-bottom: 10px;
+}
+
+.hero p {
+font-size: 18px;
+color: #ccc;
+}
+
+.services {
+padding: 40px 20px;
+}
+
+.services h2 {
+margin-bottom: 20px;
+}
+
+.contact {
+padding: 30px;
+background: #000;
 }
 </style>
 </head>
@@ -80,105 +55,26 @@ background: #111;
 <body>
 
 <header>
-<h1>Motivation United Transport LLC</h1>
-<p>Driven by Purpose. Built on Motivation.</p>
-<a href="#careers" class="btn">Apply Today</a>
+<img src="images/logo.jpg" alt="Company Logo" class="logo">
 </header>
 
-<nav>
-<a href="#about">About</a>
-<a href="#careers">Careers</a>
-<a href="#dedication">Dedication</a>
-<a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-<h2>About Us</h2>
-<div class="card">
-<p>Motivation United Transport LLC is a growing trucking company focused on reliability, safety, and opportunity. We are committed to building a strong team of drivers and dispatchers who are motivated to succeed.</p>
-</div>
-</section>
-
-<section id="careers">
-<h2>Careers</h2>
-<div class="card">
-<p>We are actively hiring CDL Drivers, Class C Drivers, and Dispatchers.</p>
-
-<form action="https://formspree.io/f/xnjoqbpk" method="POST">
-<input type="text" name="name" placeholder="Full Name" required>
-<input type="tel" name="phone" placeholder="Phone Number" required>
-<input type="email" name="email" placeholder="Email Address" required>
-
-<select name="position" required>
-<option value="">Select Position</option>
-<option>CDL Driver</option>
-<option>Class C Driver</option>
-<option>Dispatcher</option>
-</select>
-
-<input type="text" name="experience" placeholder="Years of Experience">
-
-<textarea name="message" placeholder="Describe your experience"></textarea>
-
-<button class="btn" type="submit">Submit Application</button>
-</form>
-</div>
-</section>
-
-<section id="dedication">
-<h2>Dedication</h2>
-<div class="card">
-<p>This company is dedicated to the Memory of my daughter Jada Lee Bush. Every mile driven, every load delivered, and every step forward is for her. She is the motivation behind everything we do.Forever in our hearts.</p>
-</div>
-</section>
-
-<section id="contact">
-<h2>Contact</h2>
-<div class="card">
-<p><strong>Phone:</strong> 209-427-0136</p>
-<p><strong>Email:</strong> MOUNOT10000@gmail.com</p>
-</div>
-</section>
-
-<footer>
-<p>© 2026 Motivation United Transport LLC</p>
-</footer>
-  <style>
-body {
-margin: 0;
-font-family: Arial, sans-serif;
-}
-
-.hero {
-background-image: url("images/LOGO.jpg");
-background-size: cover;
-background-position: center;
-height: 100vh;
-color: white;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-}
-
-.hero::before {
-content: "";
-position: absolute;
-width: 100%;
-height: 100%;
-background: rgba(0,0,0,0.6); /* dark overlay */
-top: 0;
-left: 0;
-}
-
-.hero h1 {
-position: relative;
-z-index: 1;
-font-size: 40px;
-}
-</style>
-  <div class="hero">
+<div class="hero">
 <h1>Motivation United Transport LLC</h1>
+<p>Dispatching • Freight • Logistics Solutions</p>
+<p>📞 209-427-0136</p>
+</div>
+
+<div class="services">
+<h2>Our Services</h2>
+<p>✔ Dispatching (Box Trucks, Semis, Hotshots)</p>
+<p>✔ Dedicated Lanes & Drop & Hooks</p>
+<p>✔ Factoring Assistance</p>
+<p>✔ Fuel Cards & Roadside Support</p>
+</div>
+
+<div class="contact">
+<p>📍 Stockton, California</p>
+<p>📞 Call us anytime: 209-427-0136</p>
 </div>
 
 </body>
