@@ -5,7 +5,7 @@
   margin: 40px 0; /* creates space between sections */
 }
 .center-image img {
-  width: 100px;   /* adjust this number smaller if needed */
+  width: 50px;   /* adjust this number smaller if needed */
   height: auto;
   border-radius: 10px;
 }
